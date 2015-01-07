@@ -14,9 +14,11 @@ $ sombrero-test <options> <URL>
 
 Options:
 
-*  `--nostandby`: don't standby
-*  `--db=</path/to/db>` : database path
-
+* `--nostandby`: don't standby
+* `--db=</path/to/db>` : database path
+* `--port=<port>` : sombrero port
+* `--gossip-port=<port>` : sombrero gossip port
+* `--join=<URL>` : URL of node to join
 
 ## Examples:
 
