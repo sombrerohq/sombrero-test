@@ -14,8 +14,8 @@ $ sombrero-test <options> <URL>
 
 Options:
 
-*  --nostandby: don't standby
-*  --db=</path/to/db: database path
+*  `--nostandby`: don't standby
+*  `--db=</path/to/db>` : database path
 
 # License
 
