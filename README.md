@@ -17,6 +17,30 @@ Options:
 *  `--nostandby`: don't standby
 *  `--db=</path/to/db>` : database path
 
+
+## Examples:
+
+### Start a leader that later joins some nodes to the cluster
+
+```bash
+$ sombrero-test sombrero-test tcp+msgpack://localhost:7000 --nostandby --join=tcp+msgpack://localhost:7001 --join=tcp+msgpack://localhost:8001
+```
+
+### Start a node with custom ports 7001-7003
+
+```bash
+$ sombrero-test tcp+msgpack://localhost:7001 --port=7002 --gossip-port=7003
+```
+
+### Start a node with custom ports 8001-8003
+
+```bash
+$ sombrero-test tcp+msgpack://localhost:8001 --port=8002 --gossip-port=8003
+```
+
+
+
+
 # License
 
 ISC
